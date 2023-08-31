@@ -1,2 +1,4 @@
-# cs303
-Data Structures
+# Author: Jordan Taranto
+### CS 303 Data Structures
+
+**Inside each homework folder is a READMME.md**
