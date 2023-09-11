@@ -5,16 +5,10 @@
 
 --- 
 
-### Assumptions
-each number has whitespace 
-each line has 10 integers
-each line has a newline character
+### Screenshot of four basic functions:
+![screenshot](assets/test.png)
 
-### function 1
-take in file
-count number of rows
-keep track of index (dict?)
-print out each line and its index for user
-ask user for index
+### Error Handling:
+![screenshot](assets/errorHandling.png)
 
-### function 2
+Makes sure that the user enters a valid index, and that the file exists.
