@@ -4,6 +4,12 @@
 ### Assignment: 1
 
 --- 
+## Assumptions
+- Assumes no floats
+- if float it will convert truncate to an integer
+
+## Cabilities 
+- if not too much or too little digits or rows then it will fill those with zeroes
 
 ### Screenshot of four basic functions:
 ![screenshot](assets/test.png)
@@ -11,4 +17,3 @@
 ### Error Handling:
 ![screenshot](assets/errorHandling.png)
 
-Makes sure that the user enters a valid index, and that the file exists.
