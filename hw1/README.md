@@ -17,5 +17,4 @@ keep track of index (dict?)
 print out each line and its index for user
 ask user for index
 
-
 ### function 2
