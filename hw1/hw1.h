@@ -6,6 +6,7 @@
 #include <sstream>
 #include <string>
 
+// allocate array size it is set at 100
 const int MAX_ROWS = 100;
 const int MAX_COLS = 100;
 

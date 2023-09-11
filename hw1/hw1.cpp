@@ -39,6 +39,7 @@ pair<int, int> checkNumber(const int data[MAX_ROWS][MAX_COLS], int number, int c
     return {-1, -1};
 }
 
+// modifies value at index
 bool modifyValueAtIndex(int data[MAX_ROWS][MAX_COLS], int rowIndex, int colIndex, int newValue, int& oldValue) {
     if (rowIndex < 0 || rowIndex >= MAX_ROWS || colIndex < 0 || colIndex >= MAX_COLS) {
         cerr << "Error: Index out of bounds." << endl;
@@ -50,6 +51,7 @@ bool modifyValueAtIndex(int data[MAX_ROWS][MAX_COLS], int rowIndex, int colIndex
     return true;
 }
 
+// appends value to array
 bool appendValue(int data[MAX_ROWS][MAX_COLS], int &currentRows, int &currentCols, int value) {
     if (currentRows == 0) {
         cerr << "No data has been read yet. Cannot append." << endl;
@@ -66,7 +68,7 @@ bool appendValue(int data[MAX_ROWS][MAX_COLS], int &currentRows, int &currentCol
     return true;
 }
 
-
+// change value to 0 or remove value 
 void modifyOrRemoveAtIndex(int data[MAX_ROWS][MAX_COLS], int& currentRows, int& currentCols, int rowIndex, int colIndex, bool setToZero) {
     if (rowIndex < 0 || rowIndex >= MAX_ROWS || colIndex < 0 || colIndex >= MAX_COLS) {
         cerr << "Error: Index out of bounds." << endl;
@@ -91,6 +93,7 @@ void modifyOrRemoveAtIndex(int data[MAX_ROWS][MAX_COLS], int& currentRows, int& 
     }
 }
 
+// displays array 
 void displayArray(int data[MAX_ROWS][MAX_COLS], int currentRows, int currentCols) {
     for (int i = 0; i < currentRows; i++) {
         for (int j = 0; j < currentCols; j++) {

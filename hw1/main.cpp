@@ -8,18 +8,18 @@ int main() {
     int currentCols = 0;
     string filename = "data.txt";
 
-    // Read the data from the file
+    // read the data from the file
     if (!readFile(filename, data, currentRows, currentCols)) {
         cerr << "Failed to read data from " << filename << endl;
         return 1;
     }
 
-    // Display the initial state of the array
+    // display the array read in from file
     cout << "Initial array content:" << endl;
     displayArray(data, currentRows, currentCols);
     cout << endl;
 
-    // Search for a number
+    // search for number
     int number;
     cout << "Enter the number to be searched: ";
     cin >> number;
@@ -28,7 +28,7 @@ int main() {
     if (row != -1) {
         cout << "Number found at index (" << row << "," << col << ")" << endl;
 
-        // Modify the value at the found index
+        // change value at index
         int newValue;
         cout << "Enter the new value to replace the number: ";
         cin >> newValue;
@@ -38,7 +38,7 @@ int main() {
             cout << "Value at index (" << row << "," << col << ") changed from " << oldValue << " to " << newValue << endl;
         }
 
-        // Display the array after the modification
+        // display array after changes
         cout << "\nArray after searching and modifying:" << endl;
         displayArray(data, currentRows, currentCols);
         cout << endl;
@@ -46,7 +46,7 @@ int main() {
         cout << "Number not found in the array." << endl;
     }
 
-    // Append a new value to the array
+    // add a new value to the array
     int appendVal;
     cout << "Enter an integer to append to the array: ";
     cin >> appendVal;
@@ -54,12 +54,12 @@ int main() {
     appendValue(data, currentRows, currentCols, appendVal);
     cout << "Value " << appendVal << " appended." << endl;
 
-    // Display the array after appending
+    // show the array after adding a value
     cout << "\nArray after appending a value:" << endl;
     displayArray(data, currentRows, currentCols);
     cout << endl;
 
-    // Modify or remove a value at a specific index
+    // change to a 0 or remove a value from the array
     int rowIndex, colIndex;
     bool setToZeroChoice;
     cout << "\nEnter the row index (0-" << currentRows-1 << ") and column index (0-" << (currentCols ? currentCols-1 : MAX_COLS-1) << ") of the integer to modify or remove: ";
@@ -76,7 +76,8 @@ int main() {
 
     modifyOrRemoveAtIndex(data, currentRows, currentCols, rowIndex, colIndex, setToZeroChoice);
     cout << "Modification done." << endl;
-    // Display the array after modification or removal
+
+    // display the array after modification or removal
     cout << "\nArray after modification or removal:" << endl;
     displayArray(data, currentRows, currentCols);
     cout << endl;
