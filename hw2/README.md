@@ -13,6 +13,7 @@
 ![Output](/hw2/assets/output.png)
 
 
+# How to use the code in the main.cpp file:
 ## **Adding Employees:**
 **For professionals with a monthly salary:**
 
