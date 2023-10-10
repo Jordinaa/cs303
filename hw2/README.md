@@ -52,5 +52,4 @@
 
 **Finding Employees:**
 **Find the position of a specific employee in the list:**
-
 `size_t position = employees.find(prof1);`
