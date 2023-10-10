@@ -3,11 +3,11 @@
 
 ### Added two extra rules: 
 **Healthcare Contribution:**
-- Professional: 5% of monthly salary.
-- NonProfessional: 3% of weekly earnings (based on hours worked).
+- **Professional:** 5% of monthly salary.
+- **NonProfessional:** 3% of weekly earnings (based on hours worked).
 **Vacation Days Earned:**
-- Professional: 30 days annually.
-- NonProfessional: 1 vacation hour earned per 40 hours worked.
+- **Professional:** 30 days annually.
+- **NonProfessional:** 1 vacation hour earned per 40 hours worked.
 
 ## **Adding Employees:**
 **For professionals with a monthly salary:**
