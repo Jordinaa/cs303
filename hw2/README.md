@@ -9,6 +9,10 @@
 - **Professional:** 30 days annually.
 - **NonProfessional:** 1 vacation hour earned per 40 hours worked.
 
+# OUTPUT
+![Output](hw2/assets/output.png)
+
+
 ## **Adding Employees:**
 **For professionals with a monthly salary:**
 
