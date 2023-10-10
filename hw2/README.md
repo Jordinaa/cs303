@@ -11,11 +11,11 @@
 
 ## **Adding Employees:**
 **For professionals with a monthly salary:**
-'Professional* prof1 = new Professional(5000);'
+    Professional* prof1 = new Professional(5000);
 
 **For non-professionals with an hourly rate and hours worked:**
-'NonProfessional* nonProf1 = new NonProfessional(25);'
-'nonProf1->setHoursWorked(40);'
+    NonProfessional* nonProf1 = new NonProfessional(25);
+    nonProf1->setHoursWorked(40);
 
 
 **Storing Employees to the System:**
