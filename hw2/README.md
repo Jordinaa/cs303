@@ -15,16 +15,19 @@
 
 **For non-professionals with an hourly rate and hours worked:**
 ```NonProfessional* nonProf1 = new NonProfessional(25);```
+
 ```nonProf1->setHoursWorked(40);```
 
 **Storing Employees to the System:**
 **Add an employee to the system:**
 ```employees.push_back(prof1);```
+
 ```employees.push_back(nonProf1);```
 
 **Displaying Employee Information:**
 **Display details for the first employee in the list:**
 ```Employee* emp = employees.front();```
+
 ```std::cout << "Weekly Salary: $" << emp->calculateWeeklySalary() << std::endl;```
 
 **Modifying Employee Data:**
