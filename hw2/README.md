@@ -1,10 +1,13 @@
 ## Author: Jordan Taranto
 ## Employee Management System
 
+I did utilize my single linked list for my employees. Did not realize they were seperate. 
+
 ### Added two extra rules: 
 **Healthcare Contribution:**
 - **Professional:** 5% of monthly salary.
 - **NonProfessional:** 3% of weekly earnings (based on hours worked).
+
 **Vacation Days Earned:**
 - **Professional:** 30 days annually.
 - **NonProfessional:** 1 vacation hour earned per 40 hours worked.
@@ -13,7 +16,7 @@
 ![Output](/hw2/assets/output.png)
 
 
-# How to use the code in the main.cpp file:
+# How to use the code in the main.cpp file
 ## **Adding Employees:**
 **For professionals with a monthly salary:**
 
