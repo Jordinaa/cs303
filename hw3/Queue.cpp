@@ -58,7 +58,3 @@ template <typename T>
 size_t Queue<T>::size() const {
     return currentSize;
 }
-
-// // Explicit template instantiation
-// template class Queue<int>;
-// template class Queue<double>;
