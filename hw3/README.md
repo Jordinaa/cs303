@@ -10,4 +10,4 @@ Inside of main it walks you through how to do each task specified inside of the 
 
 
 # OUTPUT
-!(output)[assets/output.png]
+![output](assets/output.png)
